@@ -1,0 +1,31 @@
+{
+    "name": "haruosugano/buscador-cursos",
+    "description": "Buscador que busca os cursos no site da alura",
+    "type": "library",
+    "autoload": {
+        "classmap": [
+            "Teste.php"
+        ],
+        "files": [
+            "functions.php"
+        ],
+        "psr-4": {
+            "Haruosugano\\BuscadorDeCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "haruoSugano",
+            "email": "haruosugano@icloud.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^5.4",
+        "symfony/css-selector": "^5.4"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.2",
+        "phpunit/phpunit": "^8"
+    }
+}
